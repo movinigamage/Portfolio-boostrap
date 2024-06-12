@@ -57,7 +57,7 @@ function Contact() {
 
             <div className='d-flex justify-content-center'>
                 <div className="card cardCustom">
-                    <h2 className='fw-bold mb-3' style={{ fontSize: '1.5rem' }}>I'm interested in...</h2>
+                    <h2 className='fw-bold mb-3' style={{ fontSize: '1.5rem' }}>Im interested in...</h2>
                     <div className="mb-3">
                         <button className={`btn chip ${selectedChip === "Ui/Ux" ? 'chipSelected' : ''}`} onClick={() => handleChipClick("Ui/Ux")}>Ui/Ux</button>
                         <button className={`btn chip ${selectedChip === "Web design" ? 'chipSelected' : ''}`} onClick={() => handleChipClick("Web design")}>Web design</button>
