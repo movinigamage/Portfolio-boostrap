@@ -1,0 +1,369 @@
+/* navbar */
+.navbar {
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  /* Adjust as needed */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  /* Adjust as needed */
+  font-weight: 500;
+  margin-right: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+  /* Adjust hover color */
+  background-color: rgba(0, 123, 255, 0.1) !important;
+  /* Adjust hover background color */
+}
+
+.navbar-nav .nav-link.active {
+  color: #0056b3 !important;
+  /* Active link color */
+}
+
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  transition: opacity 0.3s ease !important;
+}
+
+.navbar-icon:hover {
+  opacity: 0.7 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.badge {
+  font-size: 0.8rem;
+  /* Adjust as needed */
+}
+
+.modal {
+  display: none;
+  /* Hide modal by default */
+}
+
+.modal.show {
+  display: block;
+  /* Show modal when 'show' class is added */
+}
+
+
+/* Hello.module.css */
+.gradientText {
+  background: linear-gradient(to right, #ff0080, #7928ca, #0070f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.profileImage {
+  border: 5px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #ff0080, #7928ca, #0070f3);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 5px;
+}
+
+/* globals.css */
+
+.gradient-text {
+  background: linear-gradient(to right, #ff0080, #7928ca, #0070f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+
+/* globals.css */
+
+.gradient-text-contact {
+  background: linear-gradient(to right, #ff0080, #7928ca, #0070f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.cardCustom {
+  max-width: 700px;
+  width: 100%;
+  padding: 50px 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: start;
+  min-height: 580px;
+  margin: 30px auto;
+}
+
+@media (max-width: 768px) {
+  .cardCustom {
+    margin: 30px 10px;
+    /* Adding margin for mobile view */
+  }
+}
+
+.buttonPrimary {
+  background-color: #42446e !important;
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  width: fit-content;
+}
+
+.buttonPrimary:hover {
+  background-color: #343457 !important;
+}
+
+.chip {
+  border: 1px solid #42446e !important;
+  color: #42446e !important;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.chipSelected {
+  background-color: #42446e !important;
+  color: white !important;
+}
+
+.formControl {
+  border: none !important;
+  border-bottom: 1px solid #d0d0d0 !important;
+  padding: 10px;
+  font-size: 14px;
+  color: #2e0249;
+  transition: border-color .3s ease;
+  background: transparent;
+}
+
+/* footer */
+
+.footer-container {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 40px;
+  /* Adjust as necessary */
+  margin-right: 20px;
+}
+
+.footer-links ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links li {
+  margin: 0 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-contact ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact li {
+  margin: 0 10px;
+}
+
+.footer-contact a {
+  text-decoration: none;
+}
+
+.footer-contact img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-text {
+  margin-top: 5px;
+  padding-right: 1.5rem;
+  text-align: right;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    display: none;
+  }
+
+  .footer-text {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Login.module.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background-color: #f0f0f0;
+}
+
+.login-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  border: none;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 10px;
+  font-size: 14px;
+  color: #2e0249;
+  margin-bottom: 20px;
+  transition: border-color .3s ease;
+}
+
+.login-input:focus {
+  border-bottom: 1px solid #007bff;
+  outline: none;
+}
+
+.login-button {
+  background: linear-gradient(to right, #ff0080, #7928ca, #0070f3);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .3s ease;
+}
+
+.login-button:hover {
+  background: linear-gradient(to right, #0070f3, #7928ca, #ff0080);
+}
+
+/* message.css */
+
+.message-container {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.message-item {
+  padding: 15px;
+}
+
+.message-item .message-content {
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .message-container {
+    padding: 10px;
+    max-height: 400px;
+    /* Adjusted for smaller screens */
+  }
+
+  .message-item {
+    padding: 10px;
+  }
+
+  .message-item .d-flex.align-items-center.mb-2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .message-item .d-flex.align-items-center.mb-2 span {
+    margin-bottom: 5px;
+  }
+
+  .message-item p {
+    font-size: 0.9rem;
+  }
+}
+
+/* bgimage setting */
+
+.bg-image {
+  background-image: url('https://t4.ftcdn.net/jpg/04/99/96/39/240_F_499963990_JF7asAyO8tRWhCmifgPDBBX1WdTOwGb6.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  /* Add padding to create space inside the div */
+  padding-bottom: 100px;
+  /* Add padding to create space inside the div */
+
+}
+
+.bg-image-container {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.bg-image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://t4.ftcdn.net/jpg/04/99/96/39/240_F_499963990_JF7asAyO8tRWhCmifgPDBBX1WdTOwGb6.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Adjust opacity as needed */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
